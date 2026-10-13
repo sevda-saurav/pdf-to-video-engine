@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap');
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            width: 1920px;
+            height: 1080px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body class="bg-[#0b0f19] text-white flex flex-col justify-between p-20 select-none relative">
+    <!-- Glowing Background Orbs -->
+    <div class="absolute -top-32 -left-32 w-96 h-96 bg-blue-600/15 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute -bottom-32 -right-32 w-96 h-96 bg-indigo-600/15 rounded-full blur-3xl pointer-events-none">
+    </div>
+
+    <!-- Header -->
+    <div class="flex items-center space-x-3 z-10">
+        <span class="w-3 h-3 rounded-full bg-blue-500 animate-pulse"></span>
+        <span class="text-blue-400 font-bold tracking-widest text-lg uppercase" id="scene-tag">SCENE 01</span>
+    </div>
+
+    <!-- 2-Column Main Section -->
+    <div class="grid grid-cols-12 gap-12 items-center my-auto z-10">
+        <!-- Left Column: Typography & Insights -->
+        <div class="col-span-7 space-y-8">
+            <h1 class="text-5xl font-extrabold tracking-tight text-slate-50 leading-[1.15]" id="title">
+                Slide Title Here
+            </h1>
+            <div class="w-20 h-1 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full"></div>
+            <ul class="space-y-5" id="points">
+                <!-- Bullets injected here -->
+            </ul>
+        </div>
+
+        <!-- Right Column: Visual Feature Card -->
+        <div class="col-span-5 flex justify-center items-center">
+            <div
+                class="w-full h-[460px] rounded-3xl bg-gradient-to-br from-slate-800/60 to-slate-900/80 border border-slate-700/60 shadow-2xl p-8 flex flex-col justify-between backdrop-blur-md relative overflow-hidden">
+                <div
+                    class="w-12 h-12 rounded-2xl bg-blue-500/20 border border-blue-400/30 flex items-center justify-center text-blue-400 font-bold text-xl">
+                    AI
+                </div>
+                <div class="space-y-2 z-10">
+                    <p class="text-xs uppercase tracking-widest text-blue-400 font-semibold">Core Architecture</p>
+                    <h3 class="text-2xl font-bold text-slate-100" id="visual-caption">Concept Spotlight</h3>
+                </div>
+                <!-- Decorative Grid Lines -->
+                <div
+                    class="absolute inset-0 bg-[radial-gradient(#3b82f6_1px,transparent_1px)] [background-size:20px_20px] opacity-15">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="flex justify-between items-center text-slate-500 text-base border-t border-slate-800/80 pt-6 z-10">
+        <span class="font-medium tracking-wide">Autonomous Knowledge Synthesis</span>
+        <span id="page-num">1</span>
+    </div>
+</body>
+
+</html>
