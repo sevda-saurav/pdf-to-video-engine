@@ -5,6 +5,9 @@
 [![Playwright](https://img.shields.io/badge/Playwright-Chromium-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)](https://playwright.dev/)
 [![Gemini](https://img.shields.io/badge/Gemini-2.5%20Flash-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Demo Video](https://img.shields.io/badge/Demo%20Video-Google%20Drive-4285F4?logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1AZgn9F8Oit1OeuO6o5Lrn4aKqEIIszXC/view?usp=sharing)
+
+> 🎥 **Watch the Demo:** [Click here to view the generated 1080p sample video on Google Drive](https://drive.google.com/file/d/1AZgn9F8Oit1OeuO6o5Lrn4aKqEIIszXC/view?usp=sharing)
 
 An autonomous multimodal AI production engine that transforms static, academic, or technical PDF documents into high-retention, masterclass-quality **16:9 explainer videos** with neural voiceovers, dynamic pedagogical visual archetypes, and an expressive mascot host.
 
